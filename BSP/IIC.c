@@ -1,7 +1,8 @@
 #include "IIC.h"
+//cricket2009_AOC push
 
 /**
-	*					产生起始信号START
+	*					产生起始信号SBART
 	* @Brief	
 						SCL为1时，SDA由1到0的跳变，表示IIC开始信号
 	*	@Param	None
