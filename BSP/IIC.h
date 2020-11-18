@@ -4,11 +4,12 @@
 #include "stm32f10x.h"
 #include "delay.h"
 //cricket2009_AOC push
+//cricket2009_HP push
 
 /*驱动接口，GPIO模拟IIC*/
 //SCL-->PB6
-#define SCL_K		GPIOB->BRR = GPIO_Pin_6
-#define SCL_M		GPIOB->BSRR = GPIO_Pin_6
+#define SCL_L		GPIOB->BRR = GPIO_Pin_6
+#define SCL_H		GPIOB->BSRR = GPIO_Pin_6
 //SDA-->PB7
 #define SDA_L		GPIOB->BRR = GPIO_Pin_7
 #define SDA_H		GPIOB->BSRR = GPIO_Pin_7
